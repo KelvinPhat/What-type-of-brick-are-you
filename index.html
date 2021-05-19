@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>What type of brick are you?
+	</title>
+    </head>
+    <body>
+        <h1>What type of brick are you?</h1>
+        <!-- Questions -->
+        <div class="q1">
+            <h2>Do you go outside often?</h2>
+           	<div>
+                <input type="radio" name="question1" value="1">
+                <label for="1">Yes</label>
+
+                <input type="radio" name="question1" value="2">
+                <label for="2">No</label>
+            </div>
+            <p></p>
+            <button class="q1a">Submit</button>
+        </div>
+        <div class="q2" style="display:none">
+            <h2>On a scale from 1-10, how creative are you?</h2>
+            <input type="range" min="1" max="10" value="5" class="q2a" id="myRange">
+            <button class="q2b">Done</button> <p class="ddddd"></p>
+        </div>
+        <!-- Results -->
+        <div class="results">
+            <p class="r1" style="display:none">You are a regular brick. You are regular. </p>
+            <p class="r2" style="display:none">You are a sun dried brick. You go a lot outside but don't have much going.</p>
+            <p class="r3" style="display:none">You are an engineering brick. You are creative but you lock yourself in your room.</p>
+            <p class="r4" style="display:none">You are a lego brick. You are able to fit in with many people.</p>
+            <p class="r5"></p>
+            <p class="r6"></p>
+        </div>
+        <p></p>
+        <button class="reset" style="margin-bottom:10px">Reset</button>
+        
+        <div class="myProgress">
+  			<div class="myBar"></div>
+		</div>
+    </body>
+</html>
